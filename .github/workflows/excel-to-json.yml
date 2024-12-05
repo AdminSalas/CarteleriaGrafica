@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Descargar Excel desde OneDrive
         run: |
-          curl -L "<ENLACE_PUBLICO_EXCEL>" -o data.xlsx
+          curl -L "https://usmcl-my.sharepoint.com/:x:/g/personal/salas_csj_usm_cl/EcLTPK4jWU5PsBzsnlxHH4oB6YHZjmooLtQwzATmr2dupw?e=IQMRC7" -o data.xlsx
       - name: Convertir Excel a JSON
         run: >
           python -m pip install --upgrade pip
